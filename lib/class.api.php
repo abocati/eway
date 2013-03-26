@@ -166,7 +166,7 @@
 
 			if(array_key_exists('gateway-response', $this->response)) {
 				$this->gateway_response = $this->response['gateway-response'];
-				unset($this->response['gateway-response']);
+				//unset($this->response['gateway-response']);
 			}
 
 			$this->request = $request;
